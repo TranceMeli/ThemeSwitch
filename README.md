@@ -1,7 +1,7 @@
 # light/dark theme switch with toggle und button<br>
 
-<img width="400" alt="light-theme" src="https://github.com/user-attachments/assets/12b3c1d0-fa94-485a-93e2-3e8c489ca49f" />
-<img width="400" alt="dark-theme" src="https://github.com/user-attachments/assets/161e6bec-e046-4517-b6e5-c30900803bdb" />
+<img width="600" alt="light-theme" src="https://github.com/user-attachments/assets/12b3c1d0-fa94-485a-93e2-3e8c489ca49f" />
+<img width="600" alt="dark-theme" src="https://github.com/user-attachments/assets/161e6bec-e046-4517-b6e5-c30900803bdb" />
 
 
 ## color palettes<br>
@@ -11,7 +11,6 @@
 <br>
 <b>
 #F5EFFF<br>
-<div background-color: #F5EFFF; width: 4px></div>
 rgb(245, 239, 255)<br>
 #E5D9F2<br>
 rgb(229, 217, 242)<br>
