@@ -1,4 +1,4 @@
-# light/dark theme switch with toggle und button<br>
+# light/dark theme switch with toggle and button<br>
 
 <img width="600" alt="light-theme" src="https://github.com/user-attachments/assets/12b3c1d0-fa94-485a-93e2-3e8c489ca49f" />
 <img width="600" alt="dark-theme" src="https://github.com/user-attachments/assets/161e6bec-e046-4517-b6e5-c30900803bdb" />
