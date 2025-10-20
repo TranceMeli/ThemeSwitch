@@ -1,5 +1,9 @@
 # light/dark theme switch with toggle und button<br>
 
+<img width="400" alt="light-theme" src="![Bildschirmfoto_20-10-2025_23727_127 0 0 1](https://github.com/user-attachments/assets/12b3c1d0-fa94-485a-93e2-3e8c489ca49f" />
+<img width="400" alt="dark-theme" src="![Bildschirmfoto_20-10-2025_23714_127 0 0 1](https://github.com/user-attachments/assets/161e6bec-e046-4517-b6e5-c30900803bdb" />
+
+
 ## color palettes<br>
 ## light mode<br>
 [Light-Theme-Palette](https://colorhunt.co/palette/f5efffe5d9f2cdc1ffa294f9)<br>
