@@ -3,7 +3,8 @@
 ## color palettes<br>
 ## light mode<br>
 [Light-Theme-Palette](https://colorhunt.co/palette/f5efffe5d9f2cdc1ffa294f9)<br>
-![alt text](assets\Color_Palette_light.png)<br>
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/5049f179-8f04-4437-80a9-9a182e9f7e8c" />
+<br>
 <b>
 #F5EFFF<br>
 <div background-color: #F5EFFF; width: 4px></div>
@@ -18,7 +19,8 @@ rgb(162, 148, 249)<br>
 
 ## dark mode<br>
 [Dark-Theme-Palette](https://colorhunt.co/palette/070f2b1b1a55535c919290c3)<br>
-![alt text](assets\Color_Palette_dark.png)<br>
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/acdb2db4-ff44-4c11-92ab-154b1d0ab1c6" />
+<br>
 <b>
 #070F2B<br>
 rgb(7,15, 43)<br>
