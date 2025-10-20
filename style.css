@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+.container {
+    display: grid;
+ 
+    grid-template-areas:
+    "header header header"
+    "left-side main-content right-side"
+    "footer footer footer";
+
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 10px;
+    
+    height: 100vh;
+
+    border-color: var(--border-c);
+}
+
+.header {
+    grid-area: header;
+    background-color: var(--header-bg);
+}
+
+.main-content {
+    grid-area: main-content;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    background-color: var(--main-bg);
+}
+
+.left-side {
+    grid-area: left-side;
+    background-color: var(--side-bg);
+}
+
+.right-side {
+    grid-area: right-side;
+    background-color: var(--side-bg);
+}
+.footer {
+    grid-area: footer;
+    text-align: center;
+    background-color: var(--header-bg);
+    padding: 10px;
+}
+[data-theme="light"] {
+    --color-bg: rgb(162, 148, 249);
+    --color-text: rgb(7,15, 43);
+    --header-bg: rgb(205, 193, 255);
+    --side-bg: rgb(205, 193, 255);
+    --main-bg: rgb(229, 217, 242);
+    --border-color: rgb(7,15, 43);
+    --button-bg: rgb(245, 239, 255);
+
+}
+
+[data-theme="dark"] {
+    --color-bg: rgb(7, 15, 43);
+    --color-text: #ffffff;
+    --side-bg: rgb(83, 92, 145);
+    --header-bg: rgb(83, 92, 145);
+    --button-bg: rgb(146, 144, 195);
+    --button-text: #ffffff;
+    --main-bg: rgb(27, 26, 85);
+    --border-color: rgb(83, 92, 145);
+
+}
+
+ button {
+    font-size: 4rem;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--border-color);
+    margin-bottom: 10px;
+ }
+
+ h1 {
+    padding: 10px;
+    text-align: center;
+ }
+
+ p {
+    padding: 10px;
+ }
+
+ @media (max-width: 768px) {
+    .container {
+        grid-template-areas:
+        "header"
+        "main-content"
+        "left-side"
+        "right-side"
+        "footer";
+
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+
+        height: 100vh;
+    }
+
+    
+ }
